@@ -8,6 +8,14 @@
   B2B invoice anomaly detection — upload a cloud vendor invoice, get a trust score, anomaly flags, and an auto-drafted renegotiation email in seconds.
 </div>
 
+| | |
+|---|---|
+| Event | HackEurope, Paris |
+| Date | February 2026 |
+| Type | Team project |
+| Team | Florian Sprick, Nikita Yurchyk, Rishabh Tiwari and Firfal |
+
+
 ---
 
 ## What it does
@@ -81,7 +89,7 @@ Criteria with no available data are excluded from the denominator — the score 
 
 ## Data Usage & Collection
 
-FairPay Agent continuously tracks real-time pricing data from six external sources. Each source is polled by the `data_sourcing/` scraper, its raw JSON response is normalised into a unified schema, and the cleaned records are upserted into the `cloud_pricing` table — the ground truth the rubric uses for market benchmarking.
+FairPay Agent continuously tracks real-time pricing data from six external sources. Each source is polled by the [`data_sourcing/`](data_sourcing/) scraper, its raw JSON response is normalised into a unified schema, and the cleaned records are upserted into the `cloud_pricing` table — the ground truth the rubric uses for market benchmarking.
 
 | Source | Data collected | Used for |
 |---|---|---|

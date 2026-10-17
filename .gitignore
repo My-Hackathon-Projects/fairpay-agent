@@ -8,4 +8,9 @@ __pycache__/
 ./dummy
 ./backend_copy
 *.pdf
-.DS_STORE
+.DS_STORE.DS_Store
+node_modules/
+.ipynb_checkpoints/
+.vercel/
+.idea/
+.vscode/
